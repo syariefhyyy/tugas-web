@@ -74,7 +74,7 @@
 
       <div class="waktu">
         <span id="current-time"></span>
-        <script src="index.js"></script>
+        <script src="waktu.js"></script>
       </div>
     </div>
 
