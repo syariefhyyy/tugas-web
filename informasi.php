@@ -1,0 +1,164 @@
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TUGAS BESAR PWEB</title>
+    <link rel="stylesheet" href="informasi.css" />
+    <script src="https://kit.fontawesome.com/de8de52639.js" crossorigin="anonymous"></script>
+</head>
+<body>
+  <nav>
+    <div class="nav content">
+      <div class="logo">
+        <img src="logo sma 30.png" />
+        <span class="logo-text">SMA NEGERI 30 JAKARTA</span>
+      </div>
+      <input type="checkbox" id="check">
+      <div class="btn">
+        <label for="check">
+          <span></span>
+          <span></span>
+          <span></span>
+        </label>
+      </div>
+      <div class="menu">
+        <ul>
+          <li><a href="index.php">Beranda</a></li>
+          <li class="profil">
+            <a href=" " class="dropbtn">Profil</a> <i class="fas fa-angle-down"></i></a>
+            <div class="dropdown-content">
+              <a href="profil.php">Profil</a>
+              <a href="sejarah.php">Sejarah Singkat</a>
+              <a href="visi misi.php">Visi Misi</a>
+            </div>
+          </li>
+          <li><a href="fasilitas.php">Fasilitas</a></li>
+          <li class="ppdb">
+            <a href=" " class="dropbtn">PPPDB</a> <i class="fas fa-angle-down"></i></a>
+            <div class="dropdown-content">
+              <a href="https://ppdb.jakarta.go.id/#/0304/sekilas">Prestasi</a>
+              <a href="https://ppdb.jakarta.go.id/#/0302/sekilas">Afirmasi</a>
+              <a href="https://ppdb.jakarta.go.id/#/0307/sekilas">Zonasi</a>
+              <a href="https://ppdb.jakarta.go.id/#/0300/sekilas"
+                >Tahap Kedua</a
+              >
+            </div>
+          </li>
+          <li><a href="informasi.php">Informasi</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  
+  <!--informasi-->
+  <section class="contact">
+    <div class="content">
+      <h2>Contact Us</h2>
+      <p>Selamat datang di Website SMA Negeri 30 Jakarta.Website ini kami persembahkan sebagai sarana informasi kepada segenap civitas akademika Sekolah Menengah Atas Negeri 30 Jakarta. Sehingga segala sesuatu kegiatan yang dilaksanakan serta informasi dapat kami sampaikan kepada publik atau masyarakat umum secara langsung.</p>
+      <p>Kami berharap selain sebagai sarana informasi dan komunikasi, Website ini dapat dimanfaatkan secara maksimal sebagai media digital dan sarana pembelajaran bagi tenaga pendidik, tenaga kependidikan dan peserta didik di SMA Negeri 30 Jakarta.</p>
+    </div>
+    <div class="container">
+      <div class="contactinfo">
+        <div class="box">
+          <div class="icon"><i class="fa fa-map-marker" aria-hidden="true"></i></div>
+          <div class="text">
+            <h3>Address</h3>
+            <p>JL. JEND. A. YANI, Cempaka Putih Timur,<br> Kec. Cempaka Putih, Kota Jakarta Pusat, Dki Jakarta,<br>kode pos 10510.</p>
+          </div>
+        </div>
+        <div class="box">
+          <div class="icon"><i class="fa fa-phone" aria-hidden="true"></i></div>
+          <div class="text">
+            <h3>Phone</h3>
+            <p>(021) 29233004</p>
+          </div>
+        </div>
+        <div class="box">
+          <div class="icon"><i class="fa fa-envelope-o" aria-hidden="true"></i></div>
+          <div class="text">
+            <h3>Email</h3>
+            <p>sman30-jkt.sch.id</p>
+          </div>
+        </div>
+      </div>
+    <div class="contactForm">
+      <form>
+        <h2>Send Message</h2>
+        <div class="inputBox">
+          <span>Full Name</span>
+          <input type="text" name="" required="required">
+        </div>
+        <div class="inputBox">
+          <span>Email</span>
+          <input type="text" name="" required="required">
+        </div>
+        <div class="inputBox">
+          <span>Message</span>
+          <textarea required="required"></textarea>
+        </div>
+        <div class="inputBox">
+          <input type="submit" name="" value="send">
+        </div>
+      </form>
+    </div>
+  </section>
+
+  <!--untuk footer -->
+  <footer class="footer-distributed">
+    <div class="footer-left">
+      <img src="logo sma 30.png" />
+      <p class="footer-links">
+        <a href="index.html">Beranda</a>
+        |
+        <a href="profil.html">Profil</a>
+        
+        <a href="fasilitas.html">Fasilitas</a>
+        |
+        <a href="informasi.html">Informasi</a>
+      </p>
+
+      <p class="footer-company-name">© 1987 SMA NEGERI 30 JAKARTA</p>
+    </div>
+
+    <div class="footer-center">
+      <div>
+        <i class="fa fa-map-marker"></i>
+        <p>
+          <span
+              >JL. JEND. A. YANI, Cempaka Putih Timur, Kec. Cempaka Putih, Kota
+              Jakarta Pusat, Dki Jakarta, dengan kode pos 10510.</span
+            >
+            Sandika Ariyanto
+        </p>
+      </div>
+
+      <div>
+        <i class="fa fa-phone"></i>
+        <p>0123-4567-8910</p>
+      </div>
+      <div>
+        <i class="fa fa-envelope"></i>
+        <p>
+          <a href="https://www.samuelpasaribu.com">dapo@kemdikbud.go.id</a>
+        </p>
+      </div>
+    </div>
+    <div class="footer-right">
+      <p class="footer-company-about">
+        <span>About SMA NEGERI 30 JAKARTA</span>
+          We offer training and skill building courses across Technology,
+          Design, Management, Science and Humanities.
+      </p>
+      <div class="footer-icons">
+        <a href="https://www.instagram.com/sman_30/"
+          ><i class="fab fa-instagram"></i
+        ></a>
+        <a href=""><i class="fa-regular fa-envelope"></i></a>
+        <a href=""><i class="fa-solid fa-fax"></i></a>
+        <a href=""><i class="fa-solid fa-phone"></i></a>
+        <a href=""><i class="fab fa-whatsapp"></i></a>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
